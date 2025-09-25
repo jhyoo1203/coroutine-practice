@@ -2,7 +2,6 @@ plugins {
     kotlin("jvm") version "2.2.10"
 }
 
-group = "com.whispia.common"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -10,6 +9,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
     testImplementation(kotlin("test"))
 }
 
